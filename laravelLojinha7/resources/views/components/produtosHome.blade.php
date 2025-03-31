@@ -89,7 +89,7 @@
         <header class="cabecalho">
 
             <div style="float:right; margin-right: 10%;">
-                <a href="/"><button id="botaoVoltar">Sair</button></a>
+            
             </div>
 
         </header>
@@ -98,16 +98,16 @@
 
         <section class="secao">
 
-            <h1 style="font-size: 250%; text-align: center; margin-top: 2%;">Painel de Controle</h1>
+            <h1 style="font-size: 250%; text-align: center; margin-top: 2%;">Produtos</h1>
 
             <div class="blocoPainelControle">
 
                 <div style="float: left; width: 50%;">
-                    <h1 style="font-size: 220%; text-align: center;">Ultimas Entradas</h1>
+                   
                 </div>    
 
                 <div style="float: right; width: 50%;">
-                    <h1 style="font-size: 220%; text-align: center;">Ultimos Funcionários</h1>
+                    
                 </div>  
 
             </div>
@@ -121,35 +121,32 @@
             </a>
             <ul class="list-unstyled ps-0" style="">
             <li class="mb-1">
-                <a href="homeLogado"><button style="background-color: #F0D53B;" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                <a href="homeLogado"><button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
                 Painel de Controle
                 </button></a>
             </li>
-
             <li class="mb-1">
-                <a href="funcionario"><button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                Funcionário
-                </button></a>
-                <div class="collapse">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Funcionário
+                </button>
+                <div  class="collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Editar</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Adicionar</a></li>
+                    <li><a href="funcionarioEditar" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Editar</a></li>
+                    <li><a href="funcionarioAdicionar" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Adicionar</a></li>
                 </ul>
                 </div>
             </li>
-
             <li class="mb-1">
-                <a href="produtosHome"><button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                <button style="background-color: #F0D53B;" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
                     Produtos
-                </button></a>
-                <div class="collapse">
+                </button>
+                <div>
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Editar</a></li>
-                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Adicionar</a></li>
+                    <li><a href="" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><button style="background-color: #E9DB8C; border-style: none;">Editar</button></a></li>
+                    <li><a href="" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><button style="background-color: #E9DB8C; border-style: none;">Adicionar</button></a></li>
                 </ul>
                 </div>
             </li>
-            
             <li class="border-top my-3"></li>
             <li class="mb-1">
                 <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">

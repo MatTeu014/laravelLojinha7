@@ -10,7 +10,7 @@
     <style>
         body{
             margin: auto;
-            height: 717px;
+            height: 100vh;
             width: 100%;
         }
         header{
